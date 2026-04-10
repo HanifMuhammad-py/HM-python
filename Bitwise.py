@@ -1,4 +1,5 @@
 #Operator Bitwise (operasi biner, binary)
+print("bitwise")
 
 a = 7
 b = 3
