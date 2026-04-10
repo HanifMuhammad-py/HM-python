@@ -1,3 +1,5 @@
+print("assignment")
+
 #operasi Assignment
 # operasi ditambah / dieskponen menggunakan suatu assignment.
 #a = 2, a += 5 (nilai a + 5) = 7, a -= 2 (nilai a yg terbaru dikurang 2) = 5.
