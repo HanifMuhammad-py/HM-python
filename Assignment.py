@@ -4,19 +4,30 @@ print("assignment")
 # operasi ditambah / dieskponen menggunakan suatu assignment.
 #a = 2, a += 5 (nilai a + 5) = 7, a -= 2 (nilai a yg terbaru dikurang 2) = 5.
 
+# Ganti float menjadi int di line 9:
+# python# sebelum:
+# a = (float(input("nilai a = ")))
+
+# sesudah:
+# a = (int(input("nilai a = ")))
+# Atau kalau tetap mau pakai float tapi output tanpa desimal, tambahkan int() saat print:
+# print("nilai a menjadi :", int(a))
+
+
+
 #contoh assignment untuk operasi aritmatika, modulus, floor division dan eksponen
 print("\ncontoh assignment untuk operasi aritmatika, modulus, floor division dan eksponen")
-a = 7
-print("nilai a =", a)
+a = (float(input("nilai a = ")))
+print("nilai a = ", a)
 
 print("\n========  +  ========")
 a += 5
-print ("a += 5  (nilai a + 5)")
+print ("a += 5 (nilai a +=5)")
 print("nilai a menjadi :", a)
 
 print("\n========  -  ========")
-a -= 5
-print ("a -= 5 (nilai a - 5)")
+a -= 5 
+print ("a -= 5 (nilai a -= 5)")
 print("nilai a menjadi :", a)
 
 print("\n========  *  ========")
@@ -64,6 +75,7 @@ b = True
 print("nilai b =", b)
 b |= True #(b = true or true)
 print(" nilai b |= true, maka nilai b =", b)
+
 b = True
 print("nilai b =", b)
 b |= False #(b = true or false)
@@ -72,11 +84,12 @@ print(" nilai b |= false, maka nilai b =", b)
 
 #and (&)
 #JIKA ADA "FALSE" MAKA HASIL AKAN FALSE.
-print("\n========  or (&)  ========")
+print("\n========  and (&)  ========")
 b = True 
 print("nilai b =", b)
 b &= True #(b = true and true)
 print(" nilai b &= true, maka nilai b =", b)
+
 b = True
 print("nilai b =", b)
 b &= False #(b = true and false)
@@ -91,6 +104,7 @@ b = True
 print("nilai b =", b)
 b ^= True #(b = true xor true)
 print(" nilai b ^= true, maka nilai b =", b)
+
 b = True
 print("nilai b =", b)
 b ^= False #(b = true xor false)
