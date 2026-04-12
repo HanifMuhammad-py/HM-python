@@ -76,3 +76,44 @@ print(f'apakah dimulai dengan "fixera" = {fixera.startswith("fixera")}')
 print("===========.endswith===========")
 fixera = "fixera severaloracles"
 print(f'apakah diakhiri dengan "fixera" = {fixera.endswith("fixera")}')
+
+
+# Pembangunan Komponen join()
+print("===========.join===========")
+terpisah = f"hanif muhammad", "raja", "python"
+join = f"{' '.join(terpisah)}"
+
+print(terpisah)
+print(join)
+
+# Pembangunan Komponen split()
+# '<variable/kata yang ingin displit>'
+print("===========.split===========")
+tersambung = f"hanifmuhammadrajapython"
+split = f"{(tersambung).split('raja')}"
+
+print(tersambung)
+print(split)
+
+#r/ljust and center
+#contoh rjust(<total jarak>, <dan bisa juga symbol pemisah>)
+# Alokasi karakter rjust() "rata kanan"
+print("===========.rjust===========")
+right = f"{'kanan'.rjust(10, '=')}"
+print(right)
+
+# Alokasi karakter ljust() "rata kiri"
+print("===========.ljust===========")
+left = f"{'kiri'.ljust(10, '=')}"
+print(left)
+
+# Alokasi karakter center() "rata tengah"
+print("===========.center===========")
+center = f"{'tengah'.center(10, '=')}"
+print(center)
+
+# Alokasi karakter strip() 
+# menghilangkan pinggiran pada output 
+print("===========.strip===========")
+strip = f"{'strip'.strip("=")}"
+print(strip)
