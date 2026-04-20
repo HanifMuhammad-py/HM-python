@@ -2,7 +2,8 @@ print("if, else and elif Statement")
 
 # if statement 
 # if <variable>==<prompt>
-# if (==) kondisi : aksi
+# if (==) kondisi :
+#   aksi
 
 # if (basic)
 nama = input("masukan nama anda : ")
