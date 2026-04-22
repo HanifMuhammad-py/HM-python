@@ -2,7 +2,8 @@ print("For Loop")
 
 # [] = list (kumpulan data)
 # i = kumpulang data-data di dalam []
-# for kondisi : aksi
+# for kondisi : 
+#   aksi
 
 # basic {i} on loop
 angka =  [0, 2, 4, 6, 8, 10]
