@@ -17,8 +17,8 @@ print(f'data_x (Setelah diubah)      = {data_x}')
 print(f'data_x_copy (Setelah diubah) = {data_x_copy}\n')
 
 print(f'{10*"="} HEX ID LOCATION Shallow .copy() {10*"="}')
-print(f'hex id data_x ---> {hex(id(data_x))}')
-print(f'hex id data_x_copy ---> {hex(id(data_x_copy))}\n')
+print(f'hex id data_x       ---> {hex(id(data_x))}')
+print(f'hex id data_x_copy  ---> {hex(id(data_x_copy))}\n')
 
 
 # Deep Copy
@@ -44,5 +44,5 @@ print(f'data_x_deepcopy (setelah diubah)= {data_x_deepcopy}\n')
 
 # hex location juga 
 print(f'{10*"="} HEX ID LOCATION deepcopy() {10*"="}')
-print(f'hex id data_x ---> {hex(id(data_x))}')
-print(f'hex id data_x_deepcopy ---> {hex(id(data_x_deepcopy))}')
+print(f'hex id data_x           ---> {hex(id(data_x))}')
+print(f'hex id data_x_deepcopy  ---> {hex(id(data_x_deepcopy))}')
