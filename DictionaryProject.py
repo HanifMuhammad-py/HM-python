@@ -1,9 +1,20 @@
-print("Dictionary Exercise 1\n")
+print("Dictionary Project\n")
 
 # library python > cls (windows)
 # merapihkan output terminal
 import os
 os.system("cls")
+
+import random
+# py library u/ menambahkan variable random
+import string
+# string module itu basically shortcut kumpulan karakter, isinya antara lain:
+# Attribute                     isi
+# Isistring.ascii_uppercase     A-Z
+# string.ascii_lowercase        a-z
+# string.ascii_letters          a-z + A-Z
+# string.digits                 0-9
+# string.punctuation            !"#$%&'()*+,...
 
 
 import datetime
@@ -30,23 +41,11 @@ while True :
     programmer["Domisili"] = input("Masukan Domisili : ")
     programmer["Language"] = input("Masukan Languange : ")
 
-    Tahun_lahir = int(input("Masukan Tahun (YYYY) : "))
-    Bulan_lahir = int(input("Masukan Bulan (1/12) : "))
-    Tanggal_lahir = int(input("Masukan Tanggal (1-31) : "))
-    programmer["Tanggal Lahir"] = datetime.date(Tahun_lahir, Bulan_lahir, Tanggal_lahir)
-
-    import random
-    # py library u/ menambahkan variable random
-
-    import string
-    # string module itu basically shortcut kumpulan karakter, isinya antara lain:
-    # Attribute                     isi
-    # Isistring.ascii_uppercase     A-Z
-    # string.ascii_lowercase        a-z
-    # string.ascii_letters          a-z + A-Z
-    # string.digits                 0-9
-    # string.punctuation            !"#$%&'()*+,...
-
+    programmer["Tanggal Lahir"] = datetime.date(
+            int(input("Tahun (YYYY): ")),
+            int(input("Bulan (1-12): ")),
+            int(input("Tanggal (1-31): ")),
+        )
     key = ''.join((random.choice(string.ascii_uppercase) for i in range(6)))
     # kita akan bikin key dengan random variable, dan memilihi string (ascii_uppercase) dan dibuat sebanyak 6
     # kita bikin random untuk setiap {i} di dalam range 6
@@ -56,8 +55,8 @@ while True :
     print(f'{80*"-"}')
 
 
-    for programmer in data_programmer :
-        key = programmer
+    for programmer_x in data_programmer :
+        key = programmer_x
 
         Nama = data_programmer[key]["Nama"]
         Domisili = data_programmer[key]["Domisili"]
