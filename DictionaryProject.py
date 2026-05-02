@@ -1,12 +1,13 @@
 print("Dictionary Project\n")
 
-# library python > cls (windows)
-# merapihkan output terminal
 import os
 os.system("cls")
+# library python > cls (windows)
+# merapihkan output terminal
 
 import random
 # py library u/ menambahkan variable random
+
 import string
 # string module itu basically shortcut kumpulan karakter, isinya antara lain:
 # Attribute                     isi
