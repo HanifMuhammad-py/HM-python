@@ -4,7 +4,7 @@ print("Dictionary\n")
 data = ["Hanif", "raja", "python"]
 print(data[2])
 
-# Dictionary (dict) = Associative array
+# Dictionary (dict) =  
 # <variable {}
 # identifier : key
 # how to print ? print(<variable>[variable dict])
