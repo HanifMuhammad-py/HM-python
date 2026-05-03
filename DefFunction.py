@@ -18,14 +18,3 @@ def hello_world() :
 pass
 
 hello_world()
-
-
-def function_x() :
-    a = 5
-    b = 7
-    c = a + b
-    return c
-# return = panggil variable / fungsi sebagai nilai
-
-function_1 = function_x() + 5
-print(function_1)
