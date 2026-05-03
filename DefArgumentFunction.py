@@ -19,6 +19,9 @@ def data_programmer(data) :
 data_X = ["python", "C++", "JavaScript"]
 
 data_programmer(data_X)
+# apapun argument() di bawah yang kita masukan ke def maka akan masuk ke def argument()
+# dalam syntax ini :
+# data_programmer (def) (data_X) --> argument --> def data_programmer(data) : 
 
 
 
