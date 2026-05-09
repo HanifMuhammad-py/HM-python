@@ -1,7 +1,20 @@
 print("Date and Time")
 
 # import datetime
-import datetime as dt
+from datetime import datetime as dt
+
+
+# menampilkan waktu real time
+# dt.now().strftime("%y")
+
+# Kode     Artinya      Contoh
+# %H       Jam(24 jam)      :14.xx.xx
+# %M       Menit            :xx.30.xx
+# %S       Detik            :xx.xx.05
+# %d       Tanggal          25
+# %m       Bulan            05
+# %Y       Tahun            2026
+
 
 # today ()
 today = dt.date.today()
