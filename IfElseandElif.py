@@ -30,3 +30,8 @@ else :
     print(f"selamat datang {nama}")
     print("jangan lupa absen! kerja!")
 print("terima kasih")
+
+
+# untuk search fiture dengan if :
+# == : harus search nama/huruf secara lengkap
+# in : bisa search hanya dengan memasukan sebagian nama/huruf

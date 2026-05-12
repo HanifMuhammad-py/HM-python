@@ -11,6 +11,13 @@ data_dict = {
 len_data = len(data_dict)
 print(len_data)
 
+# Method            Kapan dipakai
+# .lower()          Pencarian, perbandingan string
+# .upper()          Format ID, kode, header
+# .title()          Nama orang, judul
+# .capitalize()     Awal kalimat
+# CONTOH ; if <variable>.lower() == <variable>["dict"].lower()
+
 # mengecek key exist
 # variable x = variable yg mau dicheck
 # variable = variable x in variable dict
