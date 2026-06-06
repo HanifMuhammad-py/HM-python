@@ -16,7 +16,7 @@ print(len_data)
 # .upper()          Format ID, kode, header
 # .title()          Nama orang, judul
 # .capitalize()     Awal kalimat
-# CONTOH ; if <variable>.lower() == <variable>["dict"].lower()
+# CONTOH ; if <variablestring (input)>.lower() == <variable>["dict"].lower()
 
 # mengecek key exist
 # variable x = variable yg mau dicheck
@@ -66,3 +66,7 @@ print(data_dict)
 # del <variable dict>["key"]
 del data_dict["b"]
 print(data_dict)
+
+# .pop()
+# .pop(<variable dict yang mau dihapus>)
+
