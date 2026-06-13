@@ -1,4 +1,1 @@
-from packageTESTING import tambah
-
-hasil_tambah = tambah(3)
-print (hasil_tambah)
+print(f'Nilai __name__ pada TESTING.PY = {__name__}')
